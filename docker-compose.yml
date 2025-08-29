@@ -21,7 +21,7 @@ services:
       - wordpress:/var/www/html
 
   db:
-    image: mysql:5.7
+    image: mysql:9.4
     restart: unless-stopped
     environment:
       - MYSQL_DATABASE
